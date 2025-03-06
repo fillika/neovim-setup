@@ -59,6 +59,9 @@ return {
 				opts.desc = "Smart rename"
         		keymap.set("n", "<leader>rn", vim.lsp.buf.rename, opts) -- smart rename
 
+				opts.desc = "Show LSP implementation"
+				keymap.set("n", "<leader>im", vim.lsp.buf.implementation, opts)
+
 				-- Get the LSP client
 				local client = vim.lsp.get_client_by_id(ev.data.client_id)
 

@@ -22,6 +22,6 @@ keymap("n", "<leader>e", ":Neotree float focus reveal<CR>", opts)
 
 -- Telescope
 keymap('n', '<leader>ff', ":Telescope find_files<CR>", { desc = 'Telescope find files' })
-keymap('n', '<leader>fg', ":Telescope live_grep<CR>" , { desc = 'Telescope live grep' })
 keymap('n', '<leader>fb', ":Telescope buffers<CR>" , { desc = 'Telescope buffers' })
-keymap('n', '<leader>fn', ":Telescope help_tags<CR>" , { desc = 'Telescope help tags' })
+keymap('n', '<leader>lg', ":Telescope live_grep<CR>" , { desc = 'Telescope live grep' })
+keymap('n', '<leader>ht', ":Telescope help_tags<CR>" , { desc = 'Telescope help tags' })
