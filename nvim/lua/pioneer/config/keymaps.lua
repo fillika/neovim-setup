@@ -25,3 +25,5 @@ keymap('n', '<leader>ff', ":Telescope find_files<CR>", { desc = 'Telescope find 
 keymap('n', '<leader>fb', ":Telescope buffers<CR>" , { desc = 'Telescope buffers' })
 keymap('n', '<leader>lg', ":Telescope live_grep<CR>" , { desc = 'Telescope live grep' })
 keymap('n', '<leader>ht', ":Telescope help_tags<CR>" , { desc = 'Telescope help tags' })
+keymap('n', '<leader>fd', ":Telescope lsp_definitions<CR>" , { desc = 'Telescope find definitions' })
+keymap('n', '<leader>fr', ":Telescope lsp_references<CR>" , { desc = 'Telescope find references' })

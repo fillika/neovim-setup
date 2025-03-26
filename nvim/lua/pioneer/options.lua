@@ -18,6 +18,7 @@ local options = {
     cursorline = true,
     termguicolors = true,
     guifont = "ubuntu:h20",
+    langmap = "фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz,ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ",
 }
 
 for k, v in pairs(options) do
