@@ -18,6 +18,7 @@ local options = {
     cursorline = true,
     termguicolors = true,
     guifont = "ubuntu:h20",
+    guicursor = "n:block,v:ver35,i:ver35",
     langmap = "фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz,ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ",
 }
 
