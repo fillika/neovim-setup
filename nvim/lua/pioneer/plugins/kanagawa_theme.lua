@@ -1,4 +1,6 @@
 return {
     "rebelot/kanagawa.nvim",
-    opts = {},
+    opts = {
+        commentStyle = { italic = false },
+    },
 }
