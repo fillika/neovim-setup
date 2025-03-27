@@ -17,8 +17,8 @@ vim.g.maplocalleader = " "
 --   command_mode = "c",
 
 -- NeoVim
-keymap("n", "<C-h>", "<C-w>h", opts)
-keymap("n", "<C-l>", "<C-w>l", opts)
+vim.keymap.set("n", "<A-,>", ":vertical resize -10<CR>", opts)
+vim.keymap.set("n", "<A-.>", ":vertical resize +10<CR>", opts)
 
 -- NeoTree
 keymap("n", "<leader><Tab>", ":Neotree toggle focus reveal<CR>", opts)
