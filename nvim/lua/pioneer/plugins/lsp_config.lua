@@ -10,10 +10,16 @@ return {
       	local mason_lspconfig = require('mason-lspconfig')
 
 		local servers = {
-			"ts_ls",
-			"lua_ls",
-			"clangd",
-			"gopls",
+            "clangd",
+            "lua_ls",
+            "gopls",
+            "vimls",
+            "marksman",
+            "cssls",
+            "html",
+            "ts_ls",
+            "svelte",
+            "emmet_ls",
 		}
 
 		-- Установка серверов через mason
@@ -58,9 +64,6 @@ return {
 
 				opts.desc = "Smart rename"
         		keymap.set("n", "<leader>rn", vim.lsp.buf.rename, opts) -- smart rename
-
-				opts.desc = "Show LSP implementation"
-				keymap.set("n", "<leader>im", vim.lsp.buf.implementation, opts)
 
 				-- Get the LSP client
 				local client = vim.lsp.get_client_by_id(ev.data.client_id)

@@ -9,6 +9,7 @@ return {
                 "c", "cpp", "lua", "go",
                 "vim", "vimdoc", "markdown",
                 "css", "html", "javascript", "tsx",
+                "svelte",
             },
             sync_install = false,
             highlight = { enable = true },

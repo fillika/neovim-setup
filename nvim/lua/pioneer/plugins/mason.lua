@@ -23,22 +23,7 @@ return {
       },
     })
 
-    mason_lspconfig.setup({
-      -- list of servers for mason to install
-      ensure_installed = {
-		"clangd",
-        "lua_ls",
-        "gopls",
-        "vimls",
-        "marksman",
-        "cssls",
-        "html",
-        "ts_ls",
-        -- "svelte",
-        -- "graphql",
-        "emmet_ls",
-      },
-    })
+    mason_lspconfig.setup({})
 
     mason_tool_installer.setup({
       ensure_installed = {
