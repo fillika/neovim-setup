@@ -16,6 +16,10 @@ vim.g.maplocalleader = " "
 --   term_mode = "t",
 --   command_mode = "c",
 
+-- Переключени между буфферами
+keymap("n", "<Tab>", ":bnext<CR>", opts)
+keymap("n", "<S-Tab>", ":bprevious<CR>", opts)
+
 -- NeoVim
 vim.keymap.set("n", "<A-,>", ":vertical resize -10<CR>", opts)
 vim.keymap.set("n", "<A-.>", ":vertical resize +10<CR>", opts)
