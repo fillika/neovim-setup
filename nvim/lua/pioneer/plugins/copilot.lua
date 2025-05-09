@@ -12,15 +12,18 @@ return {
 		config = function()
 			require("copilot").setup({
 				suggestion = {
-					enabled = true,
+					enabled = false,
 					auto_trigger = false,
-					debounce = 75,
+					debounce = 275,
 					keymap = {
 						accept = "<M-CR>", -- Принять текущее предложение Copilot (Alt + Enter)
 						next = "<M-]>",    -- Перейти к следующему предложению Copilot (Alt + ])
 						prev = "<M-[>",    -- Перейти к предыдущему предложению Copilot (Alt + [)
 					},
 				},
+                panel = {
+                    enabled = false,
+                },
 				filetypes = {
 					yaml = false,
 					markdown = false,
